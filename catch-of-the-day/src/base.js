@@ -7,7 +7,7 @@ import firebase from 'firebase';
      databaseURL: "https://catch-of-the-day-fahid-jaivd.firebaseio.com",
  });
 
-const base = Rebase.createClass(firebase.database());
+const base = Rebase.createClass(firebaseApp.database());
 
 // this is a named export
 export {firebaseApp};
