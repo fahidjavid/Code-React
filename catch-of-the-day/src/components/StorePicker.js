@@ -20,7 +20,6 @@ class StorePicker extends React.Component {
     }
 
     render() {
-        console.log(this);
         return (
             <Fragment>
                 {/*This is a StorePicker fragment*/}
